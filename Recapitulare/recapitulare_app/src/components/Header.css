@@ -1,0 +1,24 @@
+.header {
+    background: #ffffff;
+    border: 4px solid #800080;
+}
+
+.logo{
+    width: 100px;
+}
+
+.header-nav{
+    float: right;
+}
+
+.header-nav-link{
+    font-size: 15px;
+    text-decoration: none;
+    padding: 50px 20px 50px 20px;
+    display: inline-block;
+    color: #ff0000;
+}
+
+.header-nav-link:hover{
+    border-bottom: 4px solid #ff0000;                         
+}

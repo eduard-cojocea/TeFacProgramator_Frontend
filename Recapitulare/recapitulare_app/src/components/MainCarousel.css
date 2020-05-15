@@ -1,0 +1,23 @@
+.slick-next {
+    right: 50px;
+}
+
+.slick-prev {
+    left: 50px;
+    z-index: 1;
+}
+
+.slick-slider{
+    text-align: center;
+}
+
+.slide {
+    text-align: center;
+    width: 300px;
+}
+
+.slide .slide-img {
+    text-align: center;
+    width: 600px;
+    display: inline-block;
+}
