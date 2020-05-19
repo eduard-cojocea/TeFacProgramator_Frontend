@@ -1,12 +1,19 @@
 import React from 'react';
+import './ImageBlock.css';
 
-function ImageBlock() {
+function ImageBlock(props) {
+    let className = "image-block ";
+    if (props.className) {
+        className += props.className;
+    }
     return (
-        <div className="image-block">
-            <img src="images/pila.jpg" alt="pila" />
+        <div className={className}>
+            <div className="image-block-img-wrapper">
+                <img className="image-block-img" src={props.img} alt="pila" />
+            </div>
             <div className="image-block-content">
-                <h3 className="image-block-title"> Pila </h3>
-                <a href="/">How to use</a>
+                <h3 className="image-block-title"> {props.weapon_name} </h3>
+                <a className="image-block-link" href="/">How to use</a>
             </div>
         </div>
     );

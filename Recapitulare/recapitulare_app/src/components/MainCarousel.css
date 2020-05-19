@@ -19,5 +19,6 @@
 .slide .slide-img {
     text-align: center;
     width: 600px;
+    height: 600px;
     display: inline-block;
 }
